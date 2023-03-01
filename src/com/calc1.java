@@ -13,13 +13,13 @@ import java.util.*;
       System.out.print("Enter an operator (+, -, *, /): ");
       op = reader.next().charAt(0);
       switch(op) {
-         case '+': ans = num1 + num2;
+	 case '+': ans = num1 + num2;  //addition
             break;
-         case '-': ans = num1 - num2;
+         case '-': ans = num1 - num2; //Subtraction
             break;
-         case '*': ans = num1 * num2;
+         case '*': ans = num1 * num2; //Multiplication
             break;
-         case '/': ans = num1 / num2;
+         case '/': ans = num1 / num2; //Division
             break;
       default: System.out.printf("Error! Enter correct operator");
          return;
@@ -27,4 +27,4 @@ import java.util.*;
       System.out.print("The result is given as follows:");
       System.out.printf(num1 + " " + op + " " + num2 + " = " + ans);
    }
-}
+ }
